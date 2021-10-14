@@ -6,6 +6,7 @@ func getSum(a, b int) int {
 
 	sum := 0
 
+	//cara pertama yang kompleks
 	if a < b {
 		for i := a; i <= b; i++ {
 			sum += i
