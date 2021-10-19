@@ -3,7 +3,7 @@ function numberToPower(number, power){
     let sum =1
     
     for (i=1;i<=power;i++){
-     sum = sum * number
+     console.log(sum = sum * number)
     }
 
     return sum
